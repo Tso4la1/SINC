@@ -88,20 +88,30 @@
   /* background-color: red; */
   margin-right: 66px;
   margin-left: -40px;
-  width: 50%;
+  width: 52%;
 }
 .Carousel-wrapper {
   position: relative;
   overflow: hidden;
+  border: none;
 }
 .carousel-items {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 1s ease;
 }
 .carousel-item {
   flex-shrink: 0;
   width: 100%;
   object-fit: cover;
   overflow: hidden;
+}
+.carousel-item.fade {
+  position: relative;
+  opacity: 2;
+  transition: opacity 1s ease;
+}
+
+.carousel-item.fade.active {
+  opacity: 1;
 }
 
 .carousel-control {
@@ -126,8 +136,8 @@
   background-color: #d9d9d9;
   border: none;
   border-radius: 50%;
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 0.5rem;
+  height: 0.5rem;
   margin: 0 0.2rem;
   cursor: pointer;
   position: relative;
