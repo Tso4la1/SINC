@@ -148,7 +148,10 @@
 
 .pagination-indicator.active {
   background-color: #5b5454;
+  width: 0.4rem;
+  height: 0.4rem;
 }
 .pagination-indicator.active:active {
   background-color: #5b5454;
+  width: 0.3rem;
 }
