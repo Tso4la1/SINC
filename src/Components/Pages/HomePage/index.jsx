@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavBarWrapper, Navbar } from '../../Organisms/Navbar';
-import { SecCaro, FirstCaro, ThirdCaro } from '../../Molecules';
 import { HeroCarousel } from '../../Organisms/HeroCarousel';
-// import { FirstCaro } from '../../Molecules';
+import { OpenningSpeech } from '../../Molecules';
+
 
 export const HomePage = () => {
     return (
@@ -12,9 +12,7 @@ export const HomePage = () => {
         >
             <Navbar />
             <HeroCarousel />
-            {/* <SecCaro /> */}
-            {/* <FirstCaro /> */}
-            {/* <ThirdCaro /> */}
+            <OpenningSpeech />
         </NavBarWrapper>
 
     )
