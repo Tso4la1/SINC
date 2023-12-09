@@ -130,4 +130,8 @@
   height: 0.8rem;
   margin: 0 0.2rem;
   cursor: pointer;
+  position: relative;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50);
 }

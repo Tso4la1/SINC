@@ -21,13 +21,13 @@ export const HeroCarousel = () => {
     // Carousel logic will go here
     const [activeIndex, setActiveIndex] = useState(0)
 
-    const handleNext = () => {
-        setActiveIndex(prev => (prev + 1) % images.length);
-    };
+    // const handleNext = () => {
+    //     setActiveIndex(prev => (prev + 1) % images.length);
+    // };
 
-    const handlePrev = () => {
-        setActiveIndex(prev => (prev - 1 + images.length) % images.length);
-    };
+    // const handlePrev = () => {
+    //     setActiveIndex(prev => (prev - 1 + images.length) % images.length);
+    // };
 
 
     const renderPaginationIndicators = () => {
@@ -58,8 +58,8 @@ export const HeroCarousel = () => {
             </CarouselContainer>
             {/* Carousel controls will go here */}
 
-            <buttons text="prev" className="carousel-control prev" onClick={handlePrev} />
-            <button text="next" className="carousel-control next" onClick={handleNext} >Hi</button>
+            {/* <buttons text="prev" className="carousel-control prev" onClick={handlePrev} />
+            <button text="next" className="carousel-control next" onClick={handleNext} >Hi</button> */}
             {renderPaginationIndicators()}
         </CarouselContainer>
     )

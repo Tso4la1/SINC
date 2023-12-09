@@ -8,8 +8,8 @@ export const SecCaro = () => {
         <CarouselContainer
             Display="flex"
             justifyContent="center"
-        // Width="100%"
-        // Height="65vh"
+            // Width="100%"
+            Height="65vh"
         >
 
             <CarouselContainer
