@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Matter Light";
+  font-size: 16px;
+}
+
+.sectionBody {
+  /* This is for the home page styling */
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 100%;
+}
+.NavBlackButton,
+.NavGreenButton {
+  /* This is for the nav bar two buttons */
+  border: none;
+  color: #ffffff;
+  width: 130px;
+  height: 43px;
+  word-spacing: 1.5px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.NavBlackButton,
+.NavGreenButton:hover {
+  /* This is for the nav bar button hover effect*/
+  cursor: pointer;
+}
+.NavGreenButton {
+  background-color: #20888f;
+}
+.NavBlackButton {
+  background-color: #303030;
+}
+.nav-Link-text:hover {
+  cursor: pointer;
+}
+.heroText {
+  width: 59%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4e4e4e;
+}
+.heroTextHeader,
+.heroTextHeader2 {
+  width: 59%;
+  font-size: 24px;
+  font-weight: 600;
+}
+.heroTextHeader {
+  margin-bottom: 15px;
+}
+.heroTextHeader2 {
+  margin-bottom: 0;
+  line-height: 36px;
+}
+.caroButton {
+  border: none;
+  color: #ffffff;
+  background-color: #303030;
+  width: 130px;
+  height: 40px;
+  word-spacing: 1.5px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.caroButtonContainer {
+  width: 59%;
+  margin-top: 25px;
+}
+.left-section {
+  background-color: white;
+}
+.center-price {
+  z-index: 10;
+  margin-right: -86px;
+  margin-left: -80px;
+  background-color: transparent;
+}
+.jet-club {
+  height: 65vh;
+}
+.trianle-img {
+  /* background-color: red; */
+  margin-right: 66px;
+  margin-left: -40px;
+  width: 50%;
+}
+.Carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.carousel-items {
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.carousel-control.prev {
+  left: 1rem;
+}
+
+.carousel-control.next {
+  right: 1rem;
+}
+.pagination-indicator {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
