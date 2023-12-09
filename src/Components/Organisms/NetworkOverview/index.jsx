@@ -35,7 +35,7 @@ export const NetworkOverview = () => {
             flex_direction="column"
             justify_content="center"
             align_items="center"
-        // background_colour="blue"
+
         >
             <TextWrappers
                 display="flex"
