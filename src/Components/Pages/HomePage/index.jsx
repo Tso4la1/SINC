@@ -1,6 +1,5 @@
 import React from 'react';
-import { NavBarWrapper, Navbar } from '../../Organisms/Navbar';
-import { HeroCarousel } from '../../Organisms/HeroCarousel';
+import { HeroCarousel, NetworkOverview, NavBarWrapper, Navbar } from '../../Organisms';
 import { OpenningSpeech } from '../../Molecules';
 
 
@@ -13,6 +12,7 @@ export const HomePage = () => {
             <Navbar />
             <HeroCarousel />
             <OpenningSpeech />
+            <NetworkOverview />
         </NavBarWrapper>
 
     )

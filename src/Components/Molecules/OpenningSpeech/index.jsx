@@ -10,7 +10,7 @@ display: ${props => props.display};
 flex-direction: ${props => props.flex_direction};
 justify-content: ${props => props.justify_content};
 align-items: ${props => props.align_items};
-background-colour: ${props => props.background_colour};
+background-color: ${props => props.background_colour};
 font-size: ${props => props.font_size}
 `
 
