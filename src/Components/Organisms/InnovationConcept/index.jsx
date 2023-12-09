@@ -2,7 +2,27 @@ import React from 'react'
 import { TextWrappers } from '../../Molecules/OpenningSpeech'
 import { Texts } from "../../Atoms/Texts";
 
+const areaDisplay = [
+    {
+        indx: 1,
+        header: <Texts name="paragraph" text="Service Incubator" />,
+        content: <Texts name="paragraph" text="A service-for-shares model of incubating pre-product startups and early-stage companies by building their early stage product and MVP" />,
 
+    },
+
+    {
+        indx: 2,
+        header: <Texts name="paragraph" text="Virtualting" />,
+        content: <Texts name="paragraph" text="A resource share model that allows companies share the time of resources (employees, consultants, technical advisers or influencers) while also splitting the service cost of the resources" />,
+
+    },
+    {
+        indx: 3,
+        header: <Texts name="paragraph" text="Diming" />,
+        content: <Texts name="paragraph" text="A progressive investment model that allows you to put aside income (disposable or non disposoble) as investment over a period towards an investment or spend of your choice" />,
+
+    },
+]
 
 export const InnovationConcept = () => {
     return (
@@ -34,6 +54,24 @@ export const InnovationConcept = () => {
                 <Texts name="paragraph" text='We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/enterpreneurs and' />
                 <Texts name="paragraph" text='ultimately help democratize success;' />
             </TextWrappers>
+
+            <div className='
+                innovation-concept-gallery'>
+                {areaDisplay.map((items) => (
+
+                    <div className='innovation-concept-container' key={items.indx}  >
+                        <div className='innovation-concept-header'>
+                            {items.header}
+                        </div>
+                        <div className='innovation-concept-content'>
+                            {items.content}
+                        </div>
+
+
+                    </div>
+                ))
+                }
+            </div>
         </TextWrappers>
 
     )

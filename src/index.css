@@ -318,3 +318,41 @@ div.focus-area-container:nth-child(5) {
   font-weight: 500;
   color: #4e4e4e;
 }
+.innovation-concept-container {
+  background-color: white;
+  color: #4e4e4e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 4px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+.innovation-concept-header {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  color: #212121;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 28px;
+  font-weight: 600;
+}
+.innovation-concept-gallery {
+  background-color: transparent;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 45px;
+}
+.innovation-concept-content {
+  width: 75%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
