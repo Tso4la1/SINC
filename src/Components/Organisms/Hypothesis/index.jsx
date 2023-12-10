@@ -34,15 +34,7 @@ export const Hypothesis = () => {
             align_items="center"
 
         >
-            <TextWrappers
-                display="flex"
-                flex_direction="column"
-                justify_content="center"
-                align_items="center"
 
-            >
-
-            </TextWrappers>
             <TextWrappers
                 display="flex"
                 align_items="center"
