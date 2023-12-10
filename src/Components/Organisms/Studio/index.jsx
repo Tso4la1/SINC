@@ -45,7 +45,7 @@ export const Studio = () => {
                 justify_content="center"
                 align_items="center"
                 width="60%"
-                className="service-incubation-button
+                className="studio-button
     ">
                 <Buttons className="become-button" text="Become A Service Incubator" />
                 <Icons name="arrow-right" />

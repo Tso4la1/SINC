@@ -7,3 +7,4 @@ export * from "./ServiceIncubation";
 export *  from "./Hypothesis"
 export * from "./CaseStudy";
 export * from "./Studio";
+export * from "./CoFound";

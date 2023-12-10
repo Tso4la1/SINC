@@ -494,3 +494,21 @@ div.focus-area-container:nth-child(5) {
 .studio-image {
   width: 100%;
 }
+.studio-button {
+  margin-bottom: 55px;
+  font-weight: 600;
+}
+
+/* Case studio styling ends here*/
+
+/* co-found styling begins from here*/
+.co-found {
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.co-found-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4e4e4e;
+  margin-bottom: 38px;
+}
