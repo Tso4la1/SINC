@@ -51,6 +51,50 @@ export const Icons = ({ name }, props) => {
             </defs>
         </svg>
     }
+
+    if (name === "pentagon") {
+        return <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={40}
+            height={37}
+            fill="none"
+            {...props}
+        >
+            <path
+                fill="#FF88C6"
+                d="m20 0 19.021 13.82-7.265 22.36H8.244L.98 13.82 20 0Z"
+            />
+        </svg>
+
+    }
+
+    if (name === "triangle") {
+        return <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={36}
+            height={30}
+            fill="none"
+            {...props}
+        >
+            <path fill="#FF78BF" d="m18 0 17.32 30H.68L18 0Z" />
+        </svg>
+
+    }
+
+    if (name === "kite") {
+        return <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={40}
+            height={40}
+            fill="none"
+            {...props}
+        >
+            <path fill="#20888F" d="m20 0 20 20-20 20L0 20 20 0Z" />
+        </svg>
+
+    }
 }
+
+
 
 
