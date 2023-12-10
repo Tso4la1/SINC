@@ -423,6 +423,10 @@ div.focus-area-container:nth-child(5) {
   padding: 10px 0 0 30px;
   text-align: justify;
 }
+
+/*Hypothesis styling ended here*/
+
+/* Case study styling begins from here*/
 .case-study {
   margin-bottom: 18px;
   font-weight: 600;
@@ -456,4 +460,37 @@ div.focus-area-container:nth-child(5) {
   font-weight: 600;
   border: 1px solid #a4a4a4;
   border-radius: 30px;
+}
+.become-button {
+  font-size: 11px;
+  font-weight: 600;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #a4a4a4;
+}
+.service-incubation-button {
+  margin-bottom: 45px;
+  font-weight: 600;
+}
+/* Case study styling ends here*/
+
+/* Case studio styling begins from here*/
+
+.studio {
+  margin-bottom: 19px;
+  font-weight: 600;
+}
+
+.studio-text {
+  font-size: 10px;
+  font-weight: 600;
+  color: #4e4e4e;
+  margin-bottom: 35px;
+}
+.studio-image-cover {
+  margin-bottom: 35px;
+}
+.studio-image {
+  width: 100%;
 }

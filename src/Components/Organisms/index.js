@@ -6,3 +6,4 @@ export * from "./InnovationConcept";
 export * from "./ServiceIncubation";
 export *  from "./Hypothesis"
 export * from "./CaseStudy";
+export * from "./Studio";

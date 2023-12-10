@@ -1,6 +1,7 @@
 import React from 'react';
 import { TextWrappers } from '../../Molecules/OpenningSpeech';
-import { Texts } from '../../Atoms';
+import { Icons, Texts } from '../../Atoms';
+import { Buttons } from "../../Molecules/Buttons";
 
 export const CaseStudy = () => {
 
@@ -66,6 +67,17 @@ export const CaseStudy = () => {
                 ))
                 }
             </div>
+            <TextWrappers
+                display="flex"
+                justify_content="center"
+                align_items="center"
+                width="60%"
+                className="service-incubation-button
+    ">
+                <Buttons className="become-button" text="Become A Service Incubator" />
+                <Icons name="arrow-right" />
+
+            </TextWrappers>
         </TextWrappers>
     )
 }
