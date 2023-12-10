@@ -414,7 +414,7 @@ div.focus-area-container:nth-child(5) {
   font-weight: 600;
 }
 .case-study-text {
-  font-size: 12px;
+  font-size: 12.5px;
   font-weight: 600;
   color: #4e4e4e;
   margin-bottom: 35px;
@@ -465,7 +465,7 @@ div.focus-area-container:nth-child(5) {
 }
 
 .studio-text {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   color: #4e4e4e;
   margin-bottom: 35px;
@@ -625,4 +625,31 @@ div.focus-area-container:nth-child(5) {
   font-size: 1.5rem;
   cursor: pointer;
   margin-bottom: 55px;
+}
+
+/* The end of eir styling*/
+
+/* The beginning of the investors styling*/
+
+.investor,
+.micro {
+  font-weight: 600;
+}
+.investor {
+  margin-bottom: 18px;
+}
+.investor-text {
+  font-size: 14px;
+  /* font-weight: 600; */
+  color: #4e4e4e;
+  margin-bottom: 38px;
+}
+.micro {
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+.above-bracket {
+  color: #4e4e4e;
+  font-weight: 500;
+  margin-left: 3px;
 }

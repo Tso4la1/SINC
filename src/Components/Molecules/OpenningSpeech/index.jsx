@@ -11,7 +11,8 @@ flex-direction: ${props => props.flex_direction};
 justify-content: ${props => props.justify_content};
 align-items: ${props => props.align_items};
 background-color: ${props => props.background_colour};
-font-size: ${props => props.font_size}
+font-size: ${props => props.font_size};
+gap : ${props => props.gap}
 `
 
 export const OpenningSpeech = () => {

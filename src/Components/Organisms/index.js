@@ -9,3 +9,4 @@ export * from "./CaseStudy";
 export * from "./Studio";
 export * from "./CoFound";
 export * from "./EIR";
+export * from "./Investors"
