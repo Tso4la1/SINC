@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextWrappers } from '../../Molecules';
+import { TextWrappers, Buttons } from '../../Molecules';
 import { Texts, Icons } from '../../Atoms';
 
 export const CoFound = () => {
@@ -60,17 +60,17 @@ export const CoFound = () => {
                 <Texts name="paragraph" text='We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed ' />
             </TextWrappers>
             <div className='
-                hypothesis-gallery'>
+                co-found-gallery'>
                 {found.map((items) => (
 
-                    <div className='hypothesis-container' key={items.indx}  >
-                        <div className='hypothesis-header'>
+                    <div className='co-found-container' key={items.indx}  >
+                        <div className='co-found-header'>
                             <Icons name={items.icon} />
                         </div>
-                        <div className='hypothesis-header'>
+                        <div className='co-found-header'>
                             {items.header}
                         </div>
-                        <div className='hypothesis-content'>
+                        <div className='co-found-content'>
                             {items.content}
                         </div>
 
@@ -79,6 +79,16 @@ export const CoFound = () => {
                 ))
                 }
             </div>
+            <TextWrappers
+                display="flex"
+                justify_content="center"
+                align_items="center"
+                width="60%"
+                className="build-button
+    ">
+                <Buttons className="build-become-button" text="Build your dream" />
+                <Icons name="arrow-right" />
+            </TextWrappers>
         </TextWrappers>
     )
 }

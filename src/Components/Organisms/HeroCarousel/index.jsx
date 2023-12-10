@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Buttons, CarouselContainer, FirstCaro, SecCaro, ThirdCaro } from '../../Molecules'
+import { CarouselContainer, FirstCaro, SecCaro, ThirdCaro } from '../../Molecules'
 
 const images = [
     {
@@ -68,7 +68,7 @@ export const HeroCarousel = () => {
             {/* Carousel controls will go here */}
 
             {/* <buttons text="prev" className="carousel-control prev" onClick={handlePrev} />
-            <button text="next" className="carousel-control next" onClick={handleNext} >Hi</button> */}
+            <button className="carousel-control next" onClick={handleNext} >Hi</button> */}
             {renderPaginationIndicators()}
         </CarouselContainer>
     )

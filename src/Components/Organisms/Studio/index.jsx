@@ -47,7 +47,7 @@ export const Studio = () => {
                 width="60%"
                 className="studio-button
     ">
-                <Buttons className="become-button" text="Become A Service Incubator" />
+                <Buttons className="studio-become-button" text="View All Companies" />
                 <Icons name="arrow-right" />
 
             </TextWrappers>

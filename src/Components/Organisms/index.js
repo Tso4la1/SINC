@@ -8,3 +8,4 @@ export *  from "./Hypothesis"
 export * from "./CaseStudy";
 export * from "./Studio";
 export * from "./CoFound";
+export * from "./EIR";

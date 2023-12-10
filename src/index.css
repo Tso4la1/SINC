@@ -113,24 +113,6 @@
   opacity: 1;
 }
 
-.carousel-control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  border: none;
-  font-size: 1.5rem;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-.carousel-control.prev {
-  left: 1rem;
-}
-
-.carousel-control.next {
-  right: 1rem;
-}
 .pagination-indicator {
   background-color: #d9d9d9;
   border: none;
@@ -483,7 +465,7 @@ div.focus-area-container:nth-child(5) {
 }
 
 .studio-text {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   color: #4e4e4e;
   margin-bottom: 35px;
@@ -498,6 +480,14 @@ div.focus-area-container:nth-child(5) {
   margin-bottom: 55px;
   font-weight: 600;
 }
+.studio-become-button {
+  font-size: 11px;
+  font-weight: 600;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #a4a4a4;
+}
 
 /* Case studio styling ends here*/
 
@@ -511,4 +501,128 @@ div.focus-area-container:nth-child(5) {
   font-weight: 600;
   color: #4e4e4e;
   margin-bottom: 38px;
+}
+.co-found-gallery {
+  background-color: transparent;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+  margin-top: 45px;
+}
+.co-found-container {
+  background-color: white;
+  color: #4e4e4e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 4px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+.co-found-header {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  color: #212121;
+  flex-direction: column;
+  padding: 10px 0 0 30px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.co-found-content {
+  width: 75%;
+  font-size: 13px;
+  display: flex;
+  font-weight: 600;
+  padding: 10px 0 0 30px;
+  text-align: justify;
+  line-height: 17px;
+  word-spacing: -2px;
+}
+.build-button {
+  margin-bottom: 55px;
+  font-weight: 600;
+}
+.build-become-button {
+  font-size: 11px;
+  font-weight: 600;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #a4a4a4;
+}
+/* The end to the co-found styling*/
+
+/* The begining of EIR styling*/
+.eir-carousel-items {
+  transition: transform 0.9s ease;
+  flex-direction: row;
+  width: 47%;
+  display: flex;
+  flex-direction: row;
+  gap: 6%;
+}
+
+.eir-carousel-item {
+  background-color: white;
+  width: 59%;
+  flex-shrink: 0;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.eir-Carousel-wrapper {
+  position: relative;
+  overflow-x: hidden;
+  width: 90%;
+  background-color: transparent;
+  margin-bottom: 38px;
+}
+.eir-header {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  color: #212121;
+  flex-direction: column;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.eir-content {
+  width: 87%;
+  font-size: 13px;
+  display: flex;
+  font-weight: 600;
+  padding: 10px 0 15px 20px;
+  line-height: 19px;
+  color: #4e4e4e;
+}
+.eir-button {
+  margin-bottom: 42px;
+  font-weight: 600;
+}
+.eir-become-button {
+  font-size: 12px;
+  font-weight: 600;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #4e4e4e;
+  margin-right: 2px;
+  border-bottom: 1px solid #a4a4a4;
+}
+.left-right {
+  gap: 7%;
+}
+.eir-carousel-control {
+  background-color: transparent;
+  display: flex;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 55px;
 }
