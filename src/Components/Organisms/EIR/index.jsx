@@ -96,18 +96,18 @@ export const EIR = () => {
                 <CarouselContainer
                     Transform={`translateX(${currentTransform}%)`}
                     className='eir-carousel-items'>
-                    {enterpreneur.map((items, i) => (
+                    {enterpreneur.map((i) => (
 
                         <div className={`eir-carousel-item fade ${i === activeIndex ? "active" : ""
                             }`} key={i.indx}  >
                             <div className='eir-header'>
-                                <Icons name={items.icon} />
+                                <Icons name={i.icon} />
                             </div>
                             <div className='eir-header'>
-                                {items.header}
+                                {i.header}
                             </div>
                             <div className='eir-content'>
-                                {items.content}
+                                {i.content}
                             </div>
 
 
