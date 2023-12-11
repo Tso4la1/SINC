@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroCarousel, NetworkOverview, NavBarWrapper, Navbar, FocusArea, InnovationConcept, ServiceIncubation, Hypothesis, CaseStudy, Studio, CoFound, EIR, Investors, TableDeal, AngelInvestors } from '../../Organisms';
+import { HeroCarousel, NetworkOverview, NavBarWrapper, Navbar, FocusArea, InnovationConcept, ServiceIncubation, Hypothesis, CaseStudy, Studio, CoFound, EIR, Investors, TableDeal, AngelInvestors, EquityJobs } from '../../Organisms';
 import { OpenningSpeech } from '../../Molecules';
 
 
@@ -24,6 +24,7 @@ export const HomePage = () => {
             <Investors />
             <TableDeal />
             <AngelInvestors />
+            <EquityJobs />
         </NavBarWrapper>
 
     )
