@@ -11,3 +11,4 @@ export * from "./CoFound";
 export * from "./EIR";
 export * from "./Investors"
 export * from "./TableDeal";
+export * from "./AngelInvestors";

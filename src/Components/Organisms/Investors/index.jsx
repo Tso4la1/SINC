@@ -51,7 +51,7 @@ export const Investors = () => {
             <TextWrappers
                 display="flex"
                 align_items="center"
-                width="95%"
+                width="98%"
                 className="micro
     ">
                 <TextWrappers
