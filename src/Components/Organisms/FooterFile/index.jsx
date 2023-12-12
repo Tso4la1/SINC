@@ -2,6 +2,9 @@ import React from 'react';
 import { Buttons, NigeriaProducts, TextWrappers, TrustedBusines } from '../../Molecules';
 import { Images, Input, Texts } from '../../Atoms';
 import SINCLOGOwhite from "../../../assets/SINCLOGOwhite.png";
+import gasus from "../../../assets/gasus.png";
+import footermedia from "../../../assets/footer-media.png";
+
 
 
 const data3 = [
@@ -153,7 +156,57 @@ export const FooterFile = () => {
                 ))
                 }
 
+
             </TextWrappers >
+
+            <TextWrappers
+                display="flex"
+                flex_direction="row"
+                justify_content="space-between"
+                align_items="center"
+                className="footerdetails"
+            >
+                <TextWrappers
+                    display="flex"
+                    flex_direction="row"
+                    // justify_content="space-between"
+                    // align_items="center"
+                    className='footer-bracket'
+                >
+                    <Texts name="paragraph" text="Guaranteed 2x on your service or cash investment, usually been the first to invest." />
+                    <Texts name="paragraph" className="bold-footer" text=" Get in early and SINC your guaranty! " />
+                </TextWrappers>
+
+                <Images name="image" src={gasus} alt="a foundation based on christian value" />
+
+
+            </TextWrappers>
+
+            <TextWrappers
+                display="flex"
+                flex_direction="row"
+                justify_content="space-between"
+                align_items="center"
+                className="footerdetails"
+            >
+                <Texts name="paragraph" text="©
+2023 SINC Partners Ltd. All rights reserved" />
+                <TextWrappers
+                    display="flex"
+                    gap="1px"
+                    justify_content="space-between"
+                    align_items="center"
+                    className='footer-bracket'
+                >
+                    <Texts name="paragraph" className="bold-footer" text="Privacy Policy " />
+                    <Texts name="paragraph" className="bold-footer" text="Terms of Service " />
+                    <Texts name="paragraph" className="bold-footer" text=" Get in early and SINC your guaranty! " />
+                </TextWrappers>
+
+                <Images name="image" src={footermedia} alt="social medial platforms" />
+
+
+            </TextWrappers>
         </TextWrappers>
     )
 }

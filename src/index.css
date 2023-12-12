@@ -1003,6 +1003,7 @@ div.table3-deal-wrapper:nth-child(5) {
 div.table3-deal-wrapper:nth-child(6) {
   border-right: none;
   background: transparent;
+  padding-left: 12px;
 }
 .trusted {
   display: flex;
@@ -1011,4 +1012,20 @@ div.table3-deal-wrapper:nth-child(6) {
 }
 .trust {
   width: 60%;
+}
+.footer-bracket {
+  color: #d9d9d9;
+  font-weight: 500;
+  margin-left: 3px;
+  font-size: 12px;
+  width: 100%;
+}
+.bold-footer {
+  font-weight: 600;
+  font-size: 12px;
+}
+.footerdetails {
+  margin-bottom: 25px;
+  width: 100%;
+  margin: 35px 0;
 }
