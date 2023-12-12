@@ -874,3 +874,141 @@ span:nth-of-type(4) {
   width: 99%;
   padding-left: 14px;
 }
+/*This is the end of featured*/
+
+/*The beginning of help*/
+.help {
+  margin: 19px 0;
+  font-weight: 600;
+  line-height: 72px;
+}
+.helpButton {
+  border: 1px solid #212121;
+  color: #212121;
+  width: 130px;
+  height: 43px;
+  word-spacing: 1.5px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.helpButton:hover {
+  /* This is for the nav bar button hover effect*/
+  cursor: pointer;
+}
+.helpspeech {
+  margin-bottom: 35px;
+}
+
+/*The end of help styling*/
+
+/* The beginning of footer styling*/
+
+.footer-wrapper {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.footer {
+  margin: 19px 0 12px 0;
+  font-size: 35px;
+}
+.footer-text {
+  font-size: 12px;
+  line-height: 19px;
+}
+.footer-header,
+.footer-content,
+.footer-email {
+  margin-left: 35px;
+}
+
+.footer-email {
+  width: 235px;
+  height: 45px;
+  background-color: #212121;
+  border: 1px solid #a4a4a4;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+::placeholder {
+  color: #ffffff;
+  height: 45px;
+  padding-left: 12px;
+}
+.email-cover {
+  align-items: center;
+  margin: 55px 0 25px 0;
+  height: 45px;
+}
+.footer-email-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  border-radius: 25px;
+  border: none;
+  margin-left: -25px;
+  height: 48px;
+}
+.niger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nine-ja {
+  margin: 0 4px;
+}
+
+.table3-deal-container {
+  margin-bottom: 38px;
+  width: 95%;
+}
+
+.table3-deal-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  padding-left: 0px;
+  border: 1px solid #a4a4a4;
+}
+.first3-data {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex-direction: row;
+  margin-bottom: 2px;
+  font-size: 12px;
+  width: 100%;
+  padding: 5px 0 2px 0px;
+  color: #ffffff;
+  /* white-space: nowrap; */
+}
+.first3-data-header {
+  margin: 8px 0 10px 5px;
+}
+div.table3-deal-wrapper:nth-child(1),
+div.table3-deal-wrapper:nth-child(2),
+div.table3-deal-wrapper:nth-child(3),
+div.table3-deal-wrapper:nth-child(4),
+div.table3-deal-wrapper:nth-child(5) {
+  border-left: none;
+  border-right: none;
+}
+
+div.table3-deal-wrapper:nth-child(6) {
+  border-right: none;
+  background: transparent;
+}
+.trusted {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.trust {
+  width: 60%;
+}

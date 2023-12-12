@@ -15,3 +15,5 @@ export * from "./AngelInvestors";
 export * from "./EquityJobs";
 export * from "./BlogResources";
 export * from "./Featured";
+export * from "./HelpSpeech";
+export * from "./FooterFile";

@@ -1,6 +1,6 @@
 import React from 'react';
 // import { TextWrappers } from '../../Molecules';
-import { Texts, Icons } from '../../Atoms';
+import { Texts } from '../../Atoms';
 import { TextWrappers } from '../../Molecules';
 
 const data1 = [
