@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextWrappers, Buttons } from '../../Molecules';
-import { Texts, Images } from '../../Atoms';
+import { Texts, Images, Icons } from '../../Atoms';
 import skirmer from "../../../assets/skirmer.png";
 import kreeca from "../../../assets/kreeca.png";
 import krowback from "../../../assets/krowback.png";
@@ -83,6 +83,16 @@ export const EquityJobs = () => {
                 ))
                 }
             </div>
+            <TextWrappers
+                display="flex"
+                justify_content="center"
+                align_items="center"
+                width="60%"
+                className="quity-button
+    ">
+                <Buttons className="equity-right-button" text="See More Equity Jobs" />
+                <Icons name="arrow-right" />
+            </TextWrappers>
         </TextWrappers>
     )
 }
