@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroCarousel, NetworkOverview, NavBarWrapper, Navbar, FocusArea, InnovationConcept, ServiceIncubation, Hypothesis, CaseStudy, Studio, CoFound, EIR, Investors, TableDeal, AngelInvestors, EquityJobs, BlogResoures } from '../../Organisms';
+import { HeroCarousel, NetworkOverview, NavBarWrapper, Navbar, FocusArea, InnovationConcept, ServiceIncubation, Hypothesis, CaseStudy, Studio, CoFound, EIR, Investors, TableDeal, AngelInvestors, EquityJobs, BlogResoures, Featured } from '../../Organisms';
 import { OpenningSpeech } from '../../Molecules';
 
 
@@ -26,6 +26,7 @@ export const HomePage = () => {
             <AngelInvestors />
             <EquityJobs />
             <BlogResoures />
+            <Featured />
         </NavBarWrapper>
 
     )

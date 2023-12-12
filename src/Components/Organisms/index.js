@@ -13,4 +13,5 @@ export * from "./Investors"
 export * from "./TableDeal";
 export * from "./AngelInvestors";
 export * from "./EquityJobs";
-export * from "./BlogResources"
+export * from "./BlogResources";
+export * from "./Featured";
