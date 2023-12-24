@@ -13,7 +13,8 @@ gap:${props => props.Gap};
 margin:${props => props.Margin};
 padding:${props => props.Padding};
 font-weight:${props => props.fontWeight};
-
+position: ${props => props.position}
+z-index: ${props => props.zindex};
 
 `
 
@@ -26,6 +27,7 @@ export const Navbar = () => {
             justifyContent="space-between"
             flexDirection="row"
             Margin="20px 70px"
+
         > {/*NavBar styling goes in here as styled-component*/}
 
             <NavBarWrapper
@@ -34,6 +36,8 @@ export const Navbar = () => {
                 flexDirection="row"
                 Gap="20px"
                 fontWeight="600"
+                position="sticky"
+                zindex="25px"
             >
 
                 <NavBarWrapper Margin="0 10px 0 0">
