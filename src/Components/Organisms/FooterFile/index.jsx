@@ -193,8 +193,8 @@ export const FooterFile = () => {
 2023 SINC Partners Ltd. All rights reserved" />
                 <TextWrappers
                     display="flex"
-                    gap="1px"
-                    justify_content="space-between"
+                    gap="10px"
+                    justify_content="center"
                     align_items="center"
                     className='footer-bracket'
                 >
